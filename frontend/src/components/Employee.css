@@ -1,0 +1,64 @@
+.employee-list {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.employee-list h1 {
+  text-align: center;
+  color: #000;
+}
+
+.search-item {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+}
+
+ul li {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+ul li:nth-child(4) {
+  flex: 2; /* Make Salary column wider */
+}
+
+ul li:last-child {
+  flex: 1.5; /* Make Update/Delete column wider */
+}
+
+ul li button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
